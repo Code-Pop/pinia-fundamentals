@@ -2,7 +2,6 @@
 </script>
 
 <template>
-  <p>TODO LIST (child)</p>
 </template>
 
 <style scoped>

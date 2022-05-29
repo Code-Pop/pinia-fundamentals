@@ -3,7 +3,7 @@ import TodoApp from './components/TodoApp.vue'
 </script>
 
 <template>
-  <TodoApp></TodoApp>
+  <TodoApp />
 </template>
 
 <style>
