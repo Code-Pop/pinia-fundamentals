@@ -16,9 +16,11 @@ function addItemAndClear(item) {
 </script>
 
 <template>
-  <form @submit.prevent="addItemAndClear(todo)">
-    <input v-model="todo" type="text" /><button>Add</button>
-  </form>
+  <div>
+    <form @submit.prevent="addItemAndClear(todo)">
+      <input v-model="todo" type="text" /><button>Add</button>
+    </form>
+  </div>
 </template>
 
 <style scoped>

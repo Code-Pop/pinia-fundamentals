@@ -12,12 +12,12 @@ export const useTodoListStore = defineStore('todoList', {
     deleteTodo(itemId) {
       this.todoList = this.todoList.filter((object) => {
         return object.id !== itemId
-      });
+      })
     },
     toggleCompleted(idToFind) {
       const todo = this.todoList.find((obj) => obj.id === idToFind);
       if (todo) {
-        todo.completed = !todo.completed;
+        todo.completed = !todo.completed
       }
     }
   }
