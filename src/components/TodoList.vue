@@ -2,7 +2,7 @@
 import { useTodoListStore } from '@/stores/useTodoListStore'
 import { storeToRefs } from 'pinia'
 
-const store = useTodoListStore();
+const store = useTodoListStore()
 
 // storeToRefs lets todoList keep reactivity:
 const { todoList } = storeToRefs(store)
