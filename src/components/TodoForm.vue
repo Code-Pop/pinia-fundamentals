@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import { useTodoListStore } from '@/stores/useTodoListStore'
 
 const todo = ref('')
+
 const store = useTodoListStore()
 
 function addItemAndClear(item) {
@@ -13,6 +14,7 @@ function addItemAndClear(item) {
   store.addTodo(item)
   todo.value = ''
 }
+
 </script>
 
 <template>
