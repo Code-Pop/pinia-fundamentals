@@ -1,5 +1,5 @@
 <script setup>
-import { useTodoListStore } from '@/stores/useTodoListStore'
+import { useTodoListStore } from '@/stores/todoList'
 import { storeToRefs } from 'pinia'
 
 const store = useTodoListStore()
